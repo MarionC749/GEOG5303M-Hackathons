@@ -16,8 +16,9 @@ I conducted a network analysis to evaluate how parks in Leeds are connected to e
 Built a heat resilience index for property evaluation, using Energy Performance Certificate (EPC) data in Leeds. Developed Python scripts for cleaning, processing and modelling large spatial datasets. Created a weighted matrix to create resilience and improvement scores informing the property-level climate change reports of the company.
 
 
-**Hackathon 3:**
-High Street Health Assessment (with Population Health Improvement (PHI) UK): Delivered spatial analysis to identify high streets and assess their health in Liverpool and Bradford. Used POI data, DBSCAN clustering, buffering and proximity analysis in Python. Results were integrated with demographic and air quality data by the team, directly informing the client’s Health Urban Places research. 
+**Hackathon 3:** Assessing High Street Health in Liverpool and Bradford (with Population Health Improvement (PHI) UK)
+
+Delivered spatial analysis to identify high streets and assess their health in Liverpool and Bradford. Used POI data, DBSCAN clustering, buffering and proximity analysis in Python. Results were integrated with demographic and air quality data by the team, directly informing the client’s Health Urban Places research. 
 
 
 **Hackathon 4:**
