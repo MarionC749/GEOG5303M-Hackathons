@@ -18,11 +18,12 @@ Built a heat resilience index for property evaluation, using Energy Performance 
 
 **Hackathon 3:** Assessing High Street Health in Liverpool and Bradford (with Population Health Improvement (PHI) UK)
 
-Delivered spatial analysis to identify high streets and assess their health in Liverpool and Bradford. Used POI data, DBSCAN clustering, buffering and proximity analysis in Python. Results were integrated with demographic and air quality data by the team, directly informing the client’s Health Urban Places research. 
+Delivered spatial analysis to identify high streets and assess their health in Liverpool and Bradford. I used POI data, DBSCAN clustering, buffering and proximity analysis in Python for high street identification. My results were later integrated with demographic and air quality data by my team members, directly informing the client’s Health Urban Places research. 
 
 
-**Hackathon 4:**
-Natural Flood Management (with Mott MacDonald):  Supported the development of a nature-based solutions mapping tool by identifying opportunities for river re-meandering in the UK. As a team, conducted proximity, contour and sinuosity analyses, developed a watercourse scoring system, while writing reusable Python scripts for spatial data processing and visualisation. Outputs were integrated into QGIS for stakeholder engagement.
+**Hackathon 4:** Identifying Opportunities for River Re-Meandering (with Mott MacDonald)
+
+Supported the development of a nature-based solutions mapping tool by identifying opportunities for river re-meandering in the UK. As a team, conducted proximity, contour and sinuosity analyses, developed a watercourse scoring system, while writing reusable Python scripts for spatial data processing and visualisation. Outputs were later integrated into QGIS for stakeholder engagement.
 
 **Hackathon 5:**
 
