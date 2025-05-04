@@ -3,7 +3,7 @@
 
 **Course:** GEOG5303M - Creative Coding for Real World Problems
 
-Each hackathon was conducted as part of a group project in collaboration with an industry partner.
+Each hackathon was conducted as a group project in collaboration with an industry partner.
 
 ## Descriptions of projects
 
