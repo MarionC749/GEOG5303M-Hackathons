@@ -11,8 +11,9 @@ Each hackathon was conducted as part of a group project in collaboration with an
 
 I conducted a network analysis to evaluate how parks in Leeds are connected to each other via public pathways, identifying green spaces that are isolated to suggest opportunities for the creation of green corridors. Green corridors present anthropogenic, biodiversity and environmental benefits.
 
-**Hackathon 2:** 
-Heat Resilience Index (with Martello): Built a heat resilience index for property evaluation, using Energy Performance Certificate (EPC) data in Leeds. Developed and tested Python scripts for cleaning, processing and modelling large spatial datasets. Addressed significant data quality issues through imputation, external data sourcing and documentation. Created a weighted matrix to create resilience and improvement scores informing the property-level climate change reports of the company.
+**Hackathon 2:** Creating a Heat Resilience Index for Property Evaluation (with Martello)
+
+Built a heat resilience index for property evaluation, using Energy Performance Certificate (EPC) data in Leeds. Developed Python scripts for cleaning, processing and modelling large spatial datasets. Addressed significant data quality issues through imputation, external data sourcing and documentation. Created a weighted matrix to create resilience and improvement scores informing the property-level climate change reports of the company.
 
 
 **Hackathon 3:**
