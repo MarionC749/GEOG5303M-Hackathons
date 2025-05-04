@@ -4,4 +4,3 @@
 | Leeds EPC Recommendations   | Recommendations for improving energy performance          | Comma Separated Values (.csv)  |                                                                                  |
 | Leeds Heat Stress Data      | Heat stress scores and categories by polygon in Leeds     | Shapefile                      |                                                                                  |
 | OS Open UPRN                | All UPRN values for properties in Great Britain, with latitude and longitude | Comma Separated Values (.csv)  | [OS Open UPRN](https://www.ordnancesurvey.co.uk/products/os-open-uprn)            |
-| Leeds Conservation Areas    | Leeds conservation area boundaries                        | Shapefile                      | [Leeds Conservation Areas](https://strategic-planning-leedscc.hub.arcgis.com/datasets/conservation-areas-3) |
