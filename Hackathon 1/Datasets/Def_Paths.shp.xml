@@ -1,0 +1,369 @@
+<?xml version="1.0"?>
+<!-- <!DOCTYPE metadata SYSTEM "http://www.esri.com/metadata/esriprof80.dtd"> -->
+<metadata xml:lang="en"><Esri><CreaDate>20210816</CreaDate><CreaTime>15541100</CreaTime><SyncOnce>FALSE</SyncOnce><DataProperties><lineage><Process Name="Create Feature Class" ToolSource="C:\Program Files\ArcGIS\ArcToolbox\Toolboxes\Data Management Tools.tbx\CreateFeatureclass" Date="20060204" Time="134316" export="">CreateFeatureclass "Database Connections\Connection to Common data user on f12k.sde" PROW_Complete_Map # PROW_Complete_Map_wit_LocalA SAME_AS_TEMPLATE SAME_AS_TEMPLATE "PROJCS['British_National_Grid',GEOGCS['GCS_OSGB_1936',DATUM['D_OSGB_1936',SPHEROID['Airy_1830',6377563.396,299.3249646]],PRIMEM['Greenwich',0.0],UNIT['Degree',0.0174532925199433]],PROJECTION['Transverse_Mercator'],PARAMETER['False_Easting',400000.0],PARAMETER['False_Northing',-100000.0],PARAMETER['Central_Meridian',-2.0],PARAMETER['Scale_Factor',0.999601272],PARAMETER['Latitude_Of_Origin',49.0],UNIT['Meter',1.0]];361834.584030 368006.491152 15624.999985;0.000000 100000.000000;0.000000 100000.000000" COMMON_SMALL 0 0 0 "Database Connections\Connection to Common data user on f12k.sde\COMMON.PROW_Complete_Map"</Process><Process Name="Append" ToolSource="C:\Program Files\ArcGIS\ArcToolbox\Toolboxes\Data Management Tools.tbx\Append" Date="20060204" Time="134518" export="">Append PROW_Complete_Map_wit_LocalA "Database Connections\Connection to Common data user on f12k.sde\COMMON.PROW_Complete_Map" TEST "Database Connections\Connection to Common data user on f12k.sde\COMMON.PROW_Complete_Map"</Process><Process Name="FeatureClassToFeatureClass_1" ToolSource="C:\Program Files\ArcGIS\ArcToolbox\Toolboxes\Conversion Tools.tbx\FeatureClassToFeatureClass" Date="20060204" Time="134530" export="">FeatureClassToFeatureClass D:\Shared_Data\CAPS_data\PROW\PROW_Complete_Map_wit_LocalArea.shp "Database Connections\Connection to Common data user on f12k.sde" PROW_Complete_Map # "LENGTH LENGTH VISIBLE;PROW_1_ PROW_1 VISIBLE;PROW_1_ID PROW_1_ID VISIBLE;MAP MAP VISIBLE;LOCAL_AREA LOCAL_AREA VISIBLE;PROW_ID PROW_ID VISIBLE;CREATE_DAT CREATE_DATE VISIBLE;LAST_MOD_D LAST_MOD_DATE VISIBLE;UNIQUE_ID UNIQUE_ID VISIBLE;SPATIAL_ID SPATIAL_ID VISIBLE;MAP_ID MAP_ID_SCHEDULE VISIBLE;PROW_STATU PROW_STATUS VISIBLE;USRN USRN VISIBLE;DESCRIPTIO DESCRIPTION VISIBLE;SURFACE SURFACE VISIBLE;LENGTH_MET LENGTH_METRES VISIBLE;LENGTH_MIL LENGTH_MILES VISIBLE;WIDTH_METR WIDTH_METRES VISIBLE;WIDTH_FEET WIDTH_FEET VISIBLE;COMMENTS COMMENTS VISIBLE;LENGTH_1 LENGTH_1 VISIBLE;GENERAL GENERAL VISIBLE;CREATE_D_1 CREATE_DATE_SCHEDULE VISIBLE;LAST_MOD_1 LAST_MOD_DATE_SCHEDULE VISIBLE;CURRENCY CURRENCY VISIBLE;LCC_AREA_C LCC_AREA_CODE VISIBLE;NAME LOCAL_AREA_NAME VISIBLE" SAME_AS_TEMPLATE SAME_AS_TEMPLATE COMMON_SMALL 0 "Database Connections\Connection to Common data user on f12k.sde\COMMON.PROW_Complete_Map"</Process><Process Name="FeatureClassToFeatureClass_1" ToolSource="C:\Program Files\ArcGIS\ArcToolbox\Toolboxes\Conversion Tools.tbx\FeatureClassToFeatureClass" Date="20081026" Time="104733" export="">FeatureClassToFeatureClass "Database Connections\Connection to pdm1_Common@LIVE.sde\COMMON.PROW_Complete_Map" c:\ PROW_Complete_Map.shp # "MAP MAP true false false 2 Short 0 4 ,First,#,Database Connections\Connection to pdm1_Common@LIVE.sde\COMMON.PROW_Complete_Map,MAP,-1,-1;LOCAL_AREA LOCAL_AREA true false false 2 Short 0 4 ,First,#,Database Connections\Connection to pdm1_Common@LIVE.sde\COMMON.PROW_Complete_Map,LOCAL_AREA,-1,-1;PROW_ID PROW_ID true false false 5 Text 0 0 ,First,#,Database Connections\Connection to pdm1_Common@LIVE.sde\COMMON.PROW_Complete_Map,PROW_ID,-1,-1;CREATE_DAT CREATE_DAT true true false 36 Date 0 0 ,First,#,Database Connections\Connection to pdm1_Common@LIVE.sde\COMMON.PROW_Complete_Map,CREATE_DATE,-1,-1;LAST_MOD_D LAST_MOD_D true true false 36 Date 0 0 ,First,#,Database Connections\Connection to pdm1_Common@LIVE.sde\COMMON.PROW_Complete_Map,LAST_MOD_DATE,-1,-1;PROW_STATU PROW_STATU true false false 2 Text 0 0 ,First,#,Database Connections\Connection to pdm1_Common@LIVE.sde\COMMON.PROW_Complete_Map,PROW_STATUS,-1,-1;USRN USRN true false false 4 Long 0 8 ,First,#,Database Connections\Connection to pdm1_Common@LIVE.sde\COMMON.PROW_Complete_Map,USRN,-1,-1;SURFACE SURFACE true false false 50 Text 0 0 ,First,#,Database Connections\Connection to pdm1_Common@LIVE.sde\COMMON.PROW_Complete_Map,SURFACE,-1,-1;LENGTH_MET LENGTH_MET true false false 8 Double 2 15 ,First,#,Database Connections\Connection to pdm1_Common@LIVE.sde\COMMON.PROW_Complete_Map,LENGTH_METRES,-1,-1;LENGTH_MIL LENGTH_MIL true false false 8 Double 2 11 ,First,#,Database Connections\Connection to pdm1_Common@LIVE.sde\COMMON.PROW_Complete_Map,LENGTH_MILES,-1,-1;WIDTH_METR WIDTH_METR true false false 8 Double 2 11 ,First,#,Database Connections\Connection to pdm1_Common@LIVE.sde\COMMON.PROW_Complete_Map,WIDTH_METRES,-1,-1;WIDTH_FEET WIDTH_FEET true false false 8 Double 2 11 ,First,#,Database Connections\Connection to pdm1_Common@LIVE.sde\COMMON.PROW_Complete_Map,WIDTH_FEET,-1,-1;GENERAL GENERAL true false false 254 Text 0 0 ,First,#,Database Connections\Connection to pdm1_Common@LIVE.sde\COMMON.PROW_Complete_Map,GENERAL,-1,-1;CREATE_D_1 CREATE_D_1 true true false 36 Date 0 0 ,First,#,Database Connections\Connection to pdm1_Common@LIVE.sde\COMMON.PROW_Complete_Map,CREATE_DATE_SCHEDULE,-1,-1;LAST_MOD_1 LAST_MOD_1 true true false 36 Date 0 0 ,First,#,Database Connections\Connection to pdm1_Common@LIVE.sde\COMMON.PROW_Complete_Map,LAST_MOD_DATE_SCHEDULE,-1,-1;LCC_AREA_C LCC_AREA_C true false false 4 Text 0 0 ,First,#,Database Connections\Connection to pdm1_Common@LIVE.sde\COMMON.PROW_Complete_Map,LCC_AREA_CODE,-1,-1;LOCAL_AR_1 LOCAL_AR_1 true false false 32 Text 0 0 ,First,#,Database Connections\Connection to pdm1_Common@LIVE.sde\COMMON.PROW_Complete_Map,LOCAL_AREA_NAME,-1,-1;COMMENT_NE COMMENT_NE true true false 1000 Text 0 0 ,First,#,Database Connections\Connection to pdm1_Common@LIVE.sde\COMMON.PROW_Complete_Map,COMMENT_NEW,-1,-1;DESCRIPTIO DESCRIPTIO true true false 2000 Text 0 0 ,First,#,Database Connections\Connection to pdm1_Common@LIVE.sde\COMMON.PROW_Complete_Map,DESCRIPTIONS,-1,-1;PATHNAME PATHNAME true true false 50 Text 0 0 ,First,#,Database Connections\Connection to pdm1_Common@LIVE.sde\COMMON.PROW_Complete_Map,PATHNAME,-1,-1;GENERIC_SU GENERIC_SU true true false 2 Short 0 4 ,First,#,Database Connections\Connection to pdm1_Common@LIVE.sde\COMMON.PROW_Complete_Map,GENERIC_SURFACE,-1,-1;LEN LEN false false true 0 Double 0 0 ,First,#,Database Connections\Connection to pdm1_Common@LIVE.sde\COMMON.PROW_Complete_Map,SHAPE.LEN,-1,-1" # c:\PROW_Complete_Map.shp</Process><Process Name="FeatureClassToFeatureClass_1" ToolSource="C:\Program Files\ArcGIS\ArcToolbox\Toolboxes\Conversion Tools.tbx\FeatureClassToFeatureClass" Date="20081026" Time="114439" export="">FeatureClassToFeatureClass C:\PROW_Complete_Map.shp "Database Connections\Connection to tdm1_Common@TEST.sde" PROW_Complete_Map_Test # "MAP MAP true false false 4 Short 0 4 ,First,#,C:\PROW_Complete_Map.shp,MAP,-1,-1;LOCAL_AREA LOCAL_AREA true false false 4 Short 0 4 ,First,#,C:\PROW_Complete_Map.shp,LOCAL_AREA,-1,-1;PROW_ID PROW_ID true false false 5 Text 0 0 ,First,#,C:\PROW_Complete_Map.shp,PROW_ID,-1,-1;CREATE_DAT CREATE_DAT true true false 8 Date 0 0 ,First,#,C:\PROW_Complete_Map.shp,CREATE_DAT,-1,-1;LAST_MOD_D LAST_MOD_D true true false 8 Date 0 0 ,First,#,C:\PROW_Complete_Map.shp,LAST_MOD_D,-1,-1;PROW_STATU PROW_STATU true false false 2 Text 0 0 ,First,#,C:\PROW_Complete_Map.shp,PROW_STATU,-1,-1;USRN USRN true false false 8 Long 0 8 ,First,#,C:\PROW_Complete_Map.shp,USRN,-1,-1;SURFACE SURFACE true false false 50 Text 0 0 ,First,#,C:\PROW_Complete_Map.shp,SURFACE,-1,-1;LENGTH_MET LENGTH_MET true false false 16 Double 2 15 ,First,#,C:\PROW_Complete_Map.shp,LENGTH_MET,-1,-1;LENGTH_MIL LENGTH_MIL true false false 12 Double 2 11 ,First,#,C:\PROW_Complete_Map.shp,LENGTH_MIL,-1,-1;WIDTH_METR WIDTH_METR true false false 12 Double 2 11 ,First,#,C:\PROW_Complete_Map.shp,WIDTH_METR,-1,-1;WIDTH_FEET WIDTH_FEET true false false 12 Double 2 11 ,First,#,C:\PROW_Complete_Map.shp,WIDTH_FEET,-1,-1;GENERAL GENERAL true false false 254 Text 0 0 ,First,#,C:\PROW_Complete_Map.shp,GENERAL,-1,-1;CREATE_D_1 CREATE_D_1 true true false 8 Date 0 0 ,First,#,C:\PROW_Complete_Map.shp,CREATE_D_1,-1,-1;LAST_MOD_1 LAST_MOD_1 true true false 8 Date 0 0 ,First,#,C:\PROW_Complete_Map.shp,LAST_MOD_1,-1,-1;LCC_AREA_C LCC_AREA_C true false false 4 Text 0 0 ,First,#,C:\PROW_Complete_Map.shp,LCC_AREA_C,-1,-1;LOCAL_AR_1 LOCAL_AR_1 true false false 32 Text 0 0 ,First,#,C:\PROW_Complete_Map.shp,LOCAL_AR_1,-1,-1;COMMENT_NE COMMENT_NE true false false 254 Text 0 0 ,First,#,C:\PROW_Complete_Map.shp,COMMENT_NE,-1,-1;DESCRIPTIO DESCRIPTIO true false false 254 Text 0 0 ,First,#,C:\PROW_Complete_Map.shp,DESCRIPTIO,-1,-1;PATHNAME PATHNAME true false false 50 Text 0 0 ,First,#,C:\PROW_Complete_Map.shp,PATHNAME,-1,-1;GENERIC_SU GENERIC_SU true false false 4 Short 0 4 ,First,#,C:\PROW_Complete_Map.shp,GENERIC_SU,-1,-1;LEN LEN true false false 19 Double 0 0 ,First,#,C:\PROW_Complete_Map.shp,LEN,-1,-1" # "Database Connections\Connection to tdm1_Common@TEST.sde\COMMON.PROW_Complete_Map_Test"</Process><Process ToolSource="c:\program files\arcgis\desktop10.0\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField" Date="20140929" Time="120415">CalculateField "Database Connections\Connection to DD COMMON on LIVEUX60.sde\COMMON.PROW_Complete_Map" WEB_LINK "http://www.leeds.gov.uk/leisure/Pages/Definitive-Map-and-Statement.aspx" VB #</Process><Process ToolSource="c:\program files\arcgis\desktop10.0\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField" Date="20140929" Time="153525">CalculateField "Database Connections\Connection to DD COMMON on LIVEUX60.sde\COMMON.PROW_Complete_Map" LCC_LINK "/leisure/Pages/Definitive-Map-and-Statement.aspx" VB #</Process></lineage><itemProps><itemName Sync="TRUE">COMMON.PROW_Complete_Map</itemName><nativeExtBox><westBL Sync="TRUE">414419.941775</westBL><eastBL Sync="TRUE">446687.066006</eastBL><southBL Sync="TRUE">423166.924288</southBL><northBL Sync="TRUE">450175.410002</northBL><exTypeCode Sync="TRUE">1</exTypeCode></nativeExtBox><itemLocation><linkage Sync="TRUE">Server=LIVEUX60; Service=sde:oracle11g:gismal.world; User=common; Version=SDE.DEFAULT</linkage><protocol Sync="TRUE">ArcSDE Connection</protocol></itemLocation><imsContentType Sync="TRUE">002</imsContentType></itemProps><coordRef><type Sync="TRUE">Projected</type><geogcsn Sync="TRUE">GCS_OSGB_1936</geogcsn><csUnits Sync="TRUE">Linear Unit: Meter (1.000000)</csUnits><projcsn Sync="TRUE">British_National_Grid</projcsn><peXml Sync="TRUE">&lt;ProjectedCoordinateSystem xsi:type='typens:ProjectedCoordinateSystem' xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' xmlns:xs='http://www.w3.org/2001/XMLSchema' xmlns:typens='http://www.esri.com/schemas/ArcGIS/10.0'&gt;&lt;WKT&gt;PROJCS[&amp;quot;British_National_Grid&amp;quot;,GEOGCS[&amp;quot;GCS_OSGB_1936&amp;quot;,DATUM[&amp;quot;D_OSGB_1936&amp;quot;,SPHEROID[&amp;quot;Airy_1830&amp;quot;,6377563.396,299.3249646]],PRIMEM[&amp;quot;Greenwich&amp;quot;,0.0],UNIT[&amp;quot;Degree&amp;quot;,0.0174532925199433]],PROJECTION[&amp;quot;Transverse_Mercator&amp;quot;],PARAMETER[&amp;quot;False_Easting&amp;quot;,400000.0],PARAMETER[&amp;quot;False_Northing&amp;quot;,-100000.0],PARAMETER[&amp;quot;Central_Meridian&amp;quot;,-2.0],PARAMETER[&amp;quot;Scale_Factor&amp;quot;,0.9996012717],PARAMETER[&amp;quot;Latitude_Of_Origin&amp;quot;,49.0],UNIT[&amp;quot;Meter&amp;quot;,1.0],AUTHORITY[&amp;quot;EPSG&amp;quot;,27700]]&lt;/WKT&gt;&lt;XOrigin&gt;413613.263708735&lt;/XOrigin&gt;&lt;YOrigin&gt;422491.89598849998&lt;/YOrigin&gt;&lt;XYScale&gt;63384.0996910471&lt;/XYScale&gt;&lt;ZOrigin&gt;0&lt;/ZOrigin&gt;&lt;ZScale&gt;1&lt;/ZScale&gt;&lt;MOrigin&gt;0&lt;/MOrigin&gt;&lt;MScale&gt;1&lt;/MScale&gt;&lt;XYTolerance&gt;3.1553654776964461e-005&lt;/XYTolerance&gt;&lt;ZTolerance&gt;2&lt;/ZTolerance&gt;&lt;MTolerance&gt;2&lt;/MTolerance&gt;&lt;HighPrecision&gt;false&lt;/HighPrecision&gt;&lt;WKID&gt;27700&lt;/WKID&gt;&lt;/ProjectedCoordinateSystem&gt;</peXml></coordRef></DataProperties><SyncDate>20150212</SyncDate><SyncTime>14571600</SyncTime><ModDate>20150212</ModDate><ModTime>14571600</ModTime><ArcGISFormat>1.0</ArcGISFormat><ArcGISProfile>ItemDescription</ArcGISProfile></Esri><eainfo><detailed Name="COMMON.PROW_Complete_Map"><attr><attrlabl Sync="TRUE">LOCAL_AREA</attrlabl><attalias Sync="TRUE">LOCAL_AREA</attalias><attrtype Sync="TRUE">SmallInteger</attrtype><attwidth Sync="TRUE">2</attwidth><atprecis Sync="TRUE">4</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl Sync="TRUE">PROW_ID</attrlabl><attalias Sync="TRUE">PROW_ID</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">5</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl Sync="TRUE">MAP</attrlabl><attalias Sync="TRUE">MAP</attalias><attrtype Sync="TRUE">SmallInteger</attrtype><attwidth Sync="TRUE">2</attwidth><atprecis Sync="TRUE">4</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl Sync="TRUE">USRN</attrlabl><attalias Sync="TRUE">USRN</attalias><attrtype Sync="TRUE">Integer</attrtype><attwidth Sync="TRUE">4</attwidth><atprecis Sync="TRUE">8</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl Sync="TRUE">SURFACE</attrlabl><attalias Sync="TRUE">SURFACE</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">50</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl Sync="TRUE">WIDTH_FEET</attrlabl><attalias Sync="TRUE">WIDTH_FEET</attalias><attrtype Sync="TRUE">Double</attrtype><attwidth Sync="TRUE">8</attwidth><atprecis Sync="TRUE">12</atprecis><attscale Sync="TRUE">2</attscale></attr><attr><attrlabl Sync="TRUE">GENERAL</attrlabl><attalias Sync="TRUE">GENERAL</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">254</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl Sync="TRUE">SHAPE</attrlabl><attalias Sync="TRUE">PATHNAME</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">50</attwidth><attrdef Sync="TRUE">Feature geometry.</attrdef><attrdefs Sync="TRUE">ESRI</attrdefs><attrdomv><udom Sync="TRUE">Coordinates defining the features.</udom></attrdomv><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl Sync="TRUE">PATHNAME</attrlabl><attalias Sync="TRUE">Shape</attalias><attrtype Sync="TRUE">Geometry</attrtype><attwidth Sync="TRUE">4</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale><attrdef Sync="TRUE">Feature geometry.</attrdef><attrdefs Sync="TRUE">ESRI</attrdefs><attrdomv><udom Sync="TRUE">Coordinates defining the features.</udom></attrdomv></attr><attr><attrlabl Sync="TRUE">Shape</attrlabl><attalias Sync="TRUE">CREATE_DAT</attalias><attrtype Sync="TRUE">Date</attrtype><attwidth Sync="TRUE">36</attwidth><attrdef Sync="TRUE">Feature geometry.</attrdef><attrdefs Sync="TRUE">ESRI</attrdefs><attrdomv><udom Sync="TRUE">Coordinates defining the features.</udom></attrdomv><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl Sync="TRUE">CREATE_DAT</attrlabl><attalias Sync="TRUE">DATEMOD</attalias><attrtype Sync="TRUE">Date</attrtype><attwidth Sync="TRUE">36</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl Sync="TRUE">LAST_MOD_D</attrlabl><attalias Sync="TRUE">PROW_STATU</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">2</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl Sync="TRUE">PROW_STATU</attrlabl><attalias Sync="TRUE">LENGTH_MET</attalias><attrtype Sync="TRUE">Double</attrtype><attwidth Sync="TRUE">8</attwidth><atprecis Sync="TRUE">16</atprecis><attscale Sync="TRUE">2</attscale></attr><attr><attrlabl Sync="TRUE">LENGTH_MET</attrlabl><attalias Sync="TRUE">LENGTH_MIL</attalias><attrtype Sync="TRUE">Double</attrtype><attwidth Sync="TRUE">8</attwidth><atprecis Sync="TRUE">12</atprecis><attscale Sync="TRUE">2</attscale></attr><attr><attrlabl Sync="TRUE">LENGTH_MIL</attrlabl><attalias Sync="TRUE">WIDTH_METR</attalias><attrtype Sync="TRUE">Double</attrtype><attwidth Sync="TRUE">8</attwidth><atprecis Sync="TRUE">12</atprecis><attscale Sync="TRUE">2</attscale></attr><attr><attrlabl Sync="TRUE">WIDTH_METR</attrlabl><attalias Sync="TRUE">LCC_AREA_C</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">4</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl Sync="TRUE">LCC_AREA_C</attrlabl><attalias Sync="TRUE">LOCAL_AR_1</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">32</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl Sync="TRUE">LOCAL_AR_1</attrlabl><attalias Sync="TRUE">COMMENT_NE</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">254</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl Sync="TRUE">COMMENT_NE</attrlabl><attalias Sync="TRUE">GENERIC_SU</attalias><attrtype Sync="TRUE">SmallInteger</attrtype><attwidth Sync="TRUE">2</attwidth><atprecis Sync="TRUE">4</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl Sync="TRUE">GENERIC_SU</attrlabl><attalias Sync="TRUE">SHAPE.LEN</attalias><attrtype Sync="TRUE">Double</attrtype><attwidth Sync="TRUE">0</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl Sync="TRUE">SHAPE.LEN</attrlabl><attalias Sync="TRUE">DESCRIPTIO</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">254</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl Sync="TRUE">DESCRIPTIO</attrlabl><attalias Sync="TRUE">OBJECTID</attalias><attrtype Sync="TRUE">OID</attrtype><attwidth Sync="TRUE">4</attwidth><atprecis Sync="TRUE">10</atprecis><attscale Sync="TRUE">0</attscale><attrdef Sync="TRUE">Internal feature number.</attrdef><attrdefs Sync="TRUE">ESRI</attrdefs><attrdomv><udom Sync="TRUE">Sequential unique whole numbers that are automatically generated.</udom></attrdomv></attr><attr><attrlabl Sync="TRUE">OBJECTID</attrlabl><attalias Sync="TRUE">COMMON.PROW_Complete_Map.LEN</attalias><attrtype Sync="TRUE">Double</attrtype><attwidth Sync="TRUE">8</attwidth><atprecis Sync="TRUE">38</atprecis><attscale Sync="TRUE">8</attscale><attrdef Sync="TRUE">Internal feature number.</attrdef><attrdefs Sync="TRUE">ESRI</attrdefs><attrdomv><udom Sync="TRUE">Sequential unique whole numbers that are automatically generated.</udom></attrdomv></attr><attr><attrlabl Sync="TRUE">COMMON.PROW_Complete_Map.LEN</attrlabl><attalias Sync="TRUE">COMMENTS</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">100</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl Sync="TRUE">WEB_LINK</attrlabl><attalias Sync="TRUE">WEB_LINK</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">250</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl Sync="TRUE">LCC_LINK</attrlabl><attalias Sync="TRUE">LCC_LINK</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">250</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr><enttyp><enttypl Sync="TRUE">COMMON.PROW_Complete_Map</enttypl><enttypt Sync="TRUE">Feature Class</enttypt><enttypc Sync="TRUE">3228</enttypc></enttyp></detailed></eainfo><Binary><Thumbnail><Data EsriPropertyType="PictureX">/9j/4AAQSkZJRgABAQEAYABgAAD/2wBDAAMCAgMCAgMDAwMEAwMEBQgFBQQEBQoHBwYIDAoMDAsK
+CwsNDhIQDQ4RDgsLEBYQERMUFRUVDA8XGBYUGBIUFRT/2wBDAQMEBAUEBQkFBQkUDQsNFBQUFBQU
+FBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBT/wAARCACFAMgDASIA
+AhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQA
+AAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3
+ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWm
+p6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEA
+AwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSEx
+BhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElK
+U1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3
+uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwD9U6KK
+KACiiigAooooAKKKKACiiigAooqvqF/Bpdhc3ty5jtraJppXCliqKCScAEngdAM00m3ZAWKKbE5k
+jRmRo2YAlGxlT6HBIz9DTqQBRRRQAUUV5F8YvHHijw9regx6JEl1pS3wbU4LOGR71o4xFKETbk4Y
+Ft2EYbFb5lPFdOHoSxNRU4vXzE3ZXPXayLnxbo9tqX9nHUIZdSyM2VuTNOoJA3GNMsFBIyxGBkZI
+ry+aS0l1+c+IfGsmnSXkEFyk5naxntEkjJFoMYjhUtHLIAzPK/QkiFWPWfCrUmvND06O1guItHGl
+WskAntDDskbezLkqof5THyoI+UknLDPRPCqlBzk29vLfza1JUrux3dFFFecWFFFFABRRRQAUUUUA
+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</Data></Thumbnail></Binary><GEMINI_Metadata><IdentificationInfo><spatialRepresentationType codeList="001"/><extent><geographicElement><westBoundLongitude>-1.781537</westBoundLongitude><eastBoundLongitude>-1.288615</eastBoundLongitude><northBoundLatitude>53.947284</northBoundLatitude><southBoundLatitude>53.702618</southBoundLatitude></geographicElement></extent><spatialResolution><distance>0.000016</distance></spatialResolution></IdentificationInfo><dateStamp>20150212</dateStamp><metadataStandardName>UK GEMINI Standard</metadataStandardName><metadataStandardVersion>1.0</metadataStandardVersion><referenceSystemInfo><referenceSystemIdentifier><code>001</code></referenceSystemIdentifier></referenceSystemInfo></GEMINI_Metadata><mdLang><languageCode value="eng"/><countryCode value="GBR" Sync="TRUE"/></mdLang><mdChar><CharSetCd value="004"/></mdChar><mdHrLv><ScopeCd value="005"/></mdHrLv><mdStanName>ArcGIS Metadata</mdStanName><mdStanVer>1.0</mdStanVer><dataIdInfo><envirDesc Sync="TRUE">Microsoft Windows 7 Version 6.1 (Build 7601) Service Pack 1; ESRI ArcGIS 10.0.5.4400</envirDesc><dataLang><languageCode value="eng" Sync="TRUE"/><countryCode value="GBR" Sync="TRUE"/></dataLang><idCitation><resTitle Sync="TRUE">COMMON.PROW_Complete_Map</resTitle><presForm><PresFormCd value="005" Sync="TRUE"/></presForm></idCitation><spatRpType><SpatRepTypCd value="001" Sync="TRUE"/></spatRpType><dataExt><geoEle><GeoBndBox esriExtentType="search"><exTypeCode Sync="TRUE">1</exTypeCode><westBL Sync="TRUE">-1.781537</westBL><eastBL Sync="TRUE">-1.288616</eastBL><northBL Sync="TRUE">53.947284</northBL><southBL Sync="TRUE">53.702619</southBL></GeoBndBox><GeoBndBox esriExtentType="native"><westBL Sync="TRUE">414419.941775</westBL><eastBL Sync="TRUE">446687.066006</eastBL><northBL Sync="TRUE">450168.056407</northBL><southBL Sync="TRUE">423166.924288</southBL><exTypeCode Sync="TRUE">1</exTypeCode></GeoBndBox></geoEle></dataExt><idPurp>Definitive Public Rights of Way:  These are public rights of way which are mapped on the Definitive Map, a legal record of public rights of way.  These are public rights of way which legally exist and the Definitive Map provides conclusive evidence of their existence, status, location etc.  
+
+The paths that are shown on this computerised layer are only an indication of the location of paths and should not treated as conclusive evidence of the exact location of paths.  
+
+It is only a copy of the legal records and the accuracy of the information has not been completely checked.  It was affected by positional accuracy improvements and the initial inputting has not been checked.  
+
+Any queries over the exact location should be directed to the Rights of Way team on 0113 2375269 or 0113 2375245.  They should be open and available for use on the ground.  Any problems with them should be reported on 0113 2375245.  </idPurp><idAbs>&lt;DIV STYLE="text-align:Left;"&gt;&lt;DIV&gt;&lt;DIV&gt;&lt;P STYLE="text-align:Center;font-weight:bold;"&gt;&lt;SPAN&gt;&lt;SPAN&gt;PUBLIC RIGHTS OF WAY LAYERS&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/P&gt;&lt;P STYLE="text-align:Center;font-weight:bold;"&gt;&lt;SPAN&gt;&lt;SPAN&gt;CATEGORIES AND STATUS OF PATHS&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/P&gt;&lt;P /&gt;&lt;P /&gt;&lt;P STYLE="text-align:Justify;"&gt;&lt;SPAN&gt;&lt;SPAN&gt;The Public Rights of Way Layers show various status and categories of paths. This describes each category and status of the paths shown on the path layers.&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/P&gt;&lt;P /&gt;&lt;P STYLE="text-align:Justify;"&gt;&lt;SPAN&gt;&lt;SPAN&gt;There are three different categories of paths shown by different colours and four different status of path shown with different line styles. &lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/P&gt;&lt;P /&gt;&lt;P STYLE="text-align:Justify;font-weight:bold;"&gt;&lt;SPAN&gt;&lt;SPAN&gt;CATEGORIES OF PATHS:&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/P&gt;&lt;P /&gt;&lt;P STYLE="text-align:Justify;"&gt;&lt;SPAN STYLE="font-weight:bold;"&gt;&lt;SPAN&gt;Definitive Public Rights of Way: &lt;/SPAN&gt;&lt;/SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;Shown with black lines. These are public rights of way which are mapped on the Definitive Map, a legal record of public rights of way. These are public rights of way which legally exist and the Definitive Map provides conclusive evidence of their existence, status, location etc. The paths that are shown on the computerised layer are only an indication of the location of paths and should not treated as conclusive evidence of the exact location of paths. It is only a copy of the legal records and the accuracy of the information has not been completely checked. It was affected by positional accuracy improvements and the initial inputting has not been checked. Any queries over the exact location should be directed to the Rights of Way team on 0113 2375269 or 0113 2375245. They should be open and available for use on the ground. Any problems with them should be reported on 0113 2375245. &lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/P&gt;&lt;P /&gt;&lt;P STYLE="text-align:Justify;"&gt;&lt;SPAN STYLE="font-weight:bold;"&gt;&lt;SPAN&gt;Permissive Paths: &lt;/SPAN&gt;&lt;/SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;Shown with pink lines. These are paths which the public can use because the landowner has granted permission for the public to use them. This may be for a limited time of indefinitely. Examples include Sustran routes, Countryside Stewardship paths, paths with permissive path agreements or paths over council owned land. They should be open and available to use on the ground.&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/P&gt;&lt;P /&gt;&lt;P STYLE="text-align:Justify;"&gt;&lt;SPAN STYLE="font-weight:bold;"&gt;&lt;SPAN&gt;Claimed or Review Paths: &lt;/SPAN&gt;&lt;/SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;Shown with green lines. These are paths which have either been claimed by the public as a public right of way or where other evidence is believed to exist which may show that the path should be recorded on the Definitive Map. The path will be investigated when a Definitive Map Modification Order Application is dealt with or when the area is reviewed. They may be open and available to use on the ground or they may not be.&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/P&gt;&lt;P STYLE="text-align:Justify;"&gt;&lt;SPAN&gt;There are four different status of paths although only 3 currently exist in Leeds. They are as follows:&lt;/SPAN&gt;&lt;/P&gt;&lt;P STYLE="text-align:Justify;"&gt;&lt;SPAN STYLE="font-weight:bold;"&gt;Footpath - - - - - - - : &lt;/SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;Shown by a dashed line. A path for use on foot only.&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/P&gt;&lt;P STYLE="text-align:Justify;"&gt;&lt;SPAN STYLE="font-weight:bold;"&gt;Bridleway |-|-|-|-|- : &lt;/SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;Shown by a solid line with bars across it. A path for use on foot, riding or with a horse (or other beast of burden) and for Definitive Paths also with a bicycle. Permissive paths may or may not permit use with a bicycle.&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/P&gt;&lt;P STYLE="text-align:Justify;"&gt;&lt;SPAN STYLE="font-weight:bold;"&gt;Restricted Byway: &lt;/SPAN&gt;&lt;SPAN&gt;There are currently none within Leeds City Council area. A path where use on foot, horse and non-mechanically propelled vehicles e.g. bicycle, tricycle, horse drawn carriage. &lt;/SPAN&gt;&lt;/P&gt;&lt;P STYLE="text-align:Justify;"&gt;&lt;SPAN STYLE="font-weight:bold;"&gt;Byway Open to All Traffic &lt;/SPAN&gt;&lt;SPAN&gt; _v_v_v_v_: &lt;/SPAN&gt;&lt;SPAN&gt;Shown by a solid line with V on. A path where vehicular rights exist but is used mainly for the purposes of which footpaths and bridleways are used. Motorised vehicles are permitted to use them although they may not be suitable. They will mostly be used on foot, horseback and bicycle. &lt;/SPAN&gt;&lt;/P&gt;&lt;/DIV&gt;&lt;/DIV&gt;&lt;/DIV&gt;</idAbs><idCredit>Public Rights of Way Unit (c) Leeds City Council 2013</idCredit><searchKeys><keyword>Definitive Rights of Way</keyword><keyword>PROW</keyword><keyword>bridleway</keyword><keyword>footpath</keyword><keyword>byway</keyword></searchKeys><resConst><Consts><useLimit>&lt;DIV STYLE="text-align:Left;"&gt;&lt;DIV&gt;&lt;DIV&gt;&lt;P&gt;&lt;SPAN&gt;Access ONLY by Agreement with Claire Tregembo, Principal Definitive Map Officer 0113 2375269 For guidance ONLY. This information should ONLY be priovided to the public, solicitors etc. by the public rights of way&lt;/SPAN&gt;&lt;SPAN&gt;unit&lt;/SPAN&gt;&lt;/P&gt;&lt;/DIV&gt;&lt;/DIV&gt;&lt;/DIV&gt;</useLimit></Consts></resConst><geoBox esriExtentType="decdegrees"><westBL Sync="TRUE">-1.781537</westBL><eastBL Sync="TRUE">-1.288617</eastBL><northBL Sync="TRUE">53.947218</northBL><southBL Sync="TRUE">53.702619</southBL><exTypeCode Sync="TRUE">1</exTypeCode></geoBox></dataIdInfo><distInfo><distFormat><formatName Sync="TRUE">SDE Feature Class</formatName></distFormat><distributor><distorTran><onLineSrc><orDesc Sync="TRUE">002</orDesc><linkage Sync="TRUE">Server=pdm1; Service=gismal; User=common; Version=SDE.DEFAULT</linkage><protocol Sync="TRUE">ArcSDE Connection</protocol></onLineSrc></distorTran><distorFormat><formatName Sync="TRUE">SDE Feature Class</formatName></distorFormat></distributor></distInfo><mdHrLvName Sync="TRUE">dataset</mdHrLvName><refSysInfo><RefSystem><refSysID><identCode code="27700" Sync="TRUE" value="27700">British_National_Grid</identCode><idCodeSpace Sync="TRUE">EPSG</idCodeSpace><idVersion Sync="TRUE">7.4.1</idVersion></refSysID></RefSystem></refSysInfo><spatRepInfo><VectSpatRep><geometObjs Name="COMMON.PROW_Complete_Map"><geoObjTyp><GeoObjTypCd value="002" Sync="TRUE"></GeoObjTypCd></geoObjTyp><geoObjCnt Sync="TRUE">3228</geoObjCnt></geometObjs><topLvl><TopoLevCd value="001" Sync="TRUE"></TopoLevCd></topLvl></VectSpatRep></spatRepInfo><spdoinfo><direct Sync="TRUE">Vector</direct><ptvctinf><esriterm><efeatyp Sync="TRUE">Simple</efeatyp><efeageom code="3" Sync="TRUE"></efeageom><esritopo Sync="TRUE">FALSE</esritopo><efeacnt Sync="TRUE">3228</efeacnt><spindex Sync="TRUE">TRUE</spindex><linrefer Sync="TRUE">FALSE</linrefer></esriterm></ptvctinf></spdoinfo><mdDateSt Sync="TRUE">20150212</mdDateSt><idinfo><native Sync="TRUE">Microsoft Windows 2000 Version 5.2 (Build 3790) Service Pack 2; ESRI ArcCatalog 9.3.1.3500</native><descript><langdata Sync="TRUE">en</langdata></descript><citation><citeinfo><title Sync="TRUE">COMMON.PROW_Complete_Map</title><ftname Sync="TRUE">COMMON.PROW_Complete_Map</ftname><geoform Sync="TRUE">vector digital data</geoform><onlink Sync="TRUE">Server=pdm1; Service=gismal; User=common; Version=SDE.DEFAULT</onlink></citeinfo></citation><natvform Sync="TRUE">SDE Feature Class</natvform><spdom><lboundng><leftbc Sync="TRUE">414419.941775</leftbc><rightbc Sync="TRUE">446687.066006</rightbc><bottombc Sync="TRUE">423166.924288</bottombc><topbc Sync="TRUE">450168.056407</topbc></lboundng><bounding><westbc Sync="TRUE">-1.781537</westbc><eastbc Sync="TRUE">-1.288617</eastbc><northbc Sync="TRUE">53.947218</northbc><southbc Sync="TRUE">53.702619</southbc></bounding></spdom></idinfo><metainfo><langmeta Sync="TRUE">en</langmeta><metstdn Sync="TRUE">FGDC Content Standards for Digital Geospatial Metadata</metstdn><metstdv Sync="TRUE">FGDC-STD-001-1998</metstdv><mettc Sync="TRUE">local time</mettc><metd Sync="TRUE">20130306</metd></metainfo><distinfo><resdesc Sync="TRUE">Downloadable Data</resdesc></distinfo><spref><horizsys><cordsysn><geogcsn Sync="TRUE">GCS_OSGB_1936</geogcsn><projcsn Sync="TRUE">British_National_Grid</projcsn></cordsysn><planar><planci><plance Sync="TRUE">coordinate pair</plance><plandu Sync="TRUE">meters</plandu><coordrep><absres Sync="TRUE">0.000016</absres><ordres Sync="TRUE">0.000016</ordres></coordrep></planci></planar><geodetic><horizdn Sync="TRUE">D_OSGB_1936</horizdn><ellips Sync="TRUE">Airy_1830</ellips><semiaxis Sync="TRUE">6377563.396000</semiaxis><denflat Sync="TRUE">299.324965</denflat></geodetic></horizsys><vertdef><altsys><altenc Sync="TRUE">Explicit elevation coordinate included with horizontal coordinates</altenc><altres Sync="TRUE">1.000000</altres></altsys></vertdef></spref><gmd:GEMINI_Metadata xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:srv="http://www.isotc211.org/2005/srv" xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+		<gmd:fileIdentifier>
+			<gco:CharacterString>{d1ec92a2-b52c-4075-93ba-22cee4dc53ed}</gco:CharacterString>
+		</gmd:fileIdentifier>
+		<gmd:hierarchyLevel>
+			<gmd:MD_ScopeCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/gmxCodelists.xml#MD_ScopeCode" codeListValue="dataset">Dataset</gmd:MD_ScopeCode>
+		</gmd:hierarchyLevel>
+		<gmd:dateStamp>
+			<gco:Date>2011-06-24</gco:Date>
+		</gmd:dateStamp>
+		<gmd:language>
+			<gmd:LanguageCode codeList="http://www.loc.gov/standards/iso639-2/php/code_list.php" codeListValue="eng">English</gmd:LanguageCode>
+		</gmd:language>
+		<gmd:identificationInfo>
+			<gmd:MD_DataIdentification>
+				<gmd:language>
+					<gmd:LanguageCode codeList="http://www.loc.gov/standards/iso639-2/php/code_list.php" codeListValue="eng">English</gmd:LanguageCode>
+				</gmd:language>
+				<gmd:abstract>
+					<gco:CharacterString>&lt;DIV STYLE="text-align:Left;"&gt;&lt;DIV&gt;&lt;DIV&gt;&lt;P STYLE="text-align:Center;font-weight:bold;"&gt;&lt;SPAN&gt;&lt;SPAN&gt;PUBLIC RIGHTS OF WAY LAYERS&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/P&gt;&lt;P STYLE="text-align:Center;font-weight:bold;"&gt;&lt;SPAN&gt;&lt;SPAN&gt;CATEGORIES AND STATUS OF PATHS&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/P&gt;&lt;P /&gt;&lt;P /&gt;&lt;P STYLE="text-align:Justify;"&gt;&lt;SPAN&gt;&lt;SPAN&gt;The Public Rights of Way Layers show various status and categories of paths. This describes each category and status of the paths shown on the path layers.&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/P&gt;&lt;P /&gt;&lt;P STYLE="text-align:Justify;"&gt;&lt;SPAN&gt;&lt;SPAN&gt;There are three different categories of paths shown by different colours and four different status of path shown with different line styles. &lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/P&gt;&lt;P /&gt;&lt;P STYLE="text-align:Justify;font-weight:bold;"&gt;&lt;SPAN&gt;&lt;SPAN&gt;CATEGORIES OF PATHS:&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/P&gt;&lt;P /&gt;&lt;P STYLE="text-align:Justify;"&gt;&lt;SPAN STYLE="font-weight:bold;"&gt;&lt;SPAN&gt;Definitive Public Rights of Way: &lt;/SPAN&gt;&lt;/SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;Shown with black lines. These are public rights of way which are mapped on the Definitive Map, a legal record of public rights of way. These are public rights of way which legally exist and the Definitive Map provides conclusive evidence of their existence, status, location etc. The paths that are shown on the computerised layer are only an indication of the location of paths and should not treated as conclusive evidence of the exact location of paths. It is only a copy of the legal records and the accuracy of the information has not been completely checked. It was affected by positional accuracy improvements and the initial inputting has not been checked. Any queries over the exact location should be directed to the Rights of Way team on 0113 2375269 or 0113 2375245. They should be open and available for use on the ground. Any problems with them should be reported on 0113 2375245. &lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/P&gt;&lt;P /&gt;&lt;P STYLE="text-align:Justify;"&gt;&lt;SPAN STYLE="font-weight:bold;"&gt;&lt;SPAN&gt;Permissive Paths: &lt;/SPAN&gt;&lt;/SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;Shown with pink lines. These are paths which the public can use because the landowner has granted permission for the public to use them. This may be for a limited time of indefinitely. Examples include Sustran routes, Countryside Stewardship paths, paths with permissive path agreements or paths over council owned land. They should be open and available to use on the ground.&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/P&gt;&lt;P /&gt;&lt;P STYLE="text-align:Justify;"&gt;&lt;SPAN STYLE="font-weight:bold;"&gt;&lt;SPAN&gt;Claimed or Review Paths: &lt;/SPAN&gt;&lt;/SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;Shown with green lines. These are paths which have either been claimed by the public as a public right of way or where other evidence is believed to exist which may show that the path should be recorded on the Definitive Map. The path will be investigated when a Definitive Map Modification Order Application is dealt with or when the area is reviewed. They may be open and available to use on the ground or they may not be.&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/P&gt;&lt;P STYLE="text-align:Justify;"&gt;&lt;SPAN&gt;There are four different status of paths although only 3 currently exist in Leeds. They are as follows:&lt;/SPAN&gt;&lt;/P&gt;&lt;P STYLE="text-align:Justify;"&gt;&lt;SPAN STYLE="font-weight:bold;"&gt;Footpath - - - - - - - : &lt;/SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;Shown by a dashed line. A path for use on foot only.&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/P&gt;&lt;P STYLE="text-align:Justify;"&gt;&lt;SPAN STYLE="font-weight:bold;"&gt;Bridleway |-|-|-|-|- : &lt;/SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;Shown by a solid line with bars across it. A path for use on foot, riding or with a horse (or other beast of burden) and for Definitive Paths also with a bicycle. Permissive paths may or may not permit use with a bicycle.&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/P&gt;&lt;P STYLE="text-align:Justify;"&gt;&lt;SPAN STYLE="font-weight:bold;"&gt;Restricted Byway: &lt;/SPAN&gt;&lt;SPAN&gt;There are currently none within Leeds City Council area. A path where use on foot, horse and non-mechanically propelled vehicles e.g. bicycle, tricycle, horse drawn carriage. &lt;/SPAN&gt;&lt;/P&gt;&lt;P STYLE="text-align:Justify;"&gt;&lt;SPAN STYLE="font-weight:bold;"&gt;Byway Open to All Traffic &lt;/SPAN&gt;&lt;SPAN&gt; _v_v_v_v_: &lt;/SPAN&gt;&lt;SPAN&gt;Shown by a solid line with V on. A path where vehicular rights exist but is used mainly for the purposes of which footpaths and bridleways are used. Motorised vehicles are permitted to use them although they may not be suitable. They will mostly be used on foot, horseback and bicycle. &lt;/SPAN&gt;&lt;/P&gt;&lt;/DIV&gt;&lt;/DIV&gt;&lt;/DIV&gt;</gco:CharacterString>
+				</gmd:abstract>
+				<gmd:spatialResolution>
+					<gmd:MD_Resolution>
+						<gmd:distance>
+							<gco:Distance uom="Meters">1.57768273884822E-05</gco:Distance>
+						</gmd:distance>
+					</gmd:MD_Resolution>
+				</gmd:spatialResolution>
+				<gmd:citation>
+					<gmd:CI_Citation>
+						<gmd:title>
+							<gco:CharacterString>COMMON.PROW_Complete_Map</gco:CharacterString>
+						</gmd:title>
+					</gmd:CI_Citation>
+				</gmd:citation>
+				<gmd:descriptiveKeywords>
+					<gmd:MD_Keywords>
+						<gmd:type>
+							<gmd:MD_KeywordTypeCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/gmxCodelists.xml#MD_KeywordTypeCode" codeListValue="theme">Theme</gmd:MD_KeywordTypeCode>
+						</gmd:type>
+					</gmd:MD_Keywords>
+				</gmd:descriptiveKeywords>
+				<gmd:extent>
+					<gmd:EX_Extent>
+						<gmd:geographicElement>
+							<gmd:EX_GeographicBoundingBox>
+								<gmd:westBoundLongitude>
+									<gco:Decimal>-1.781537</gco:Decimal>
+								</gmd:westBoundLongitude>
+								<gmd:eastBoundLongitude>
+									<gco:Decimal>-1.288617</gco:Decimal>
+								</gmd:eastBoundLongitude>
+								<gmd:southBoundLatitude>
+									<gco:Decimal>53.702619</gco:Decimal>
+								</gmd:southBoundLatitude>
+								<gmd:northBoundLatitude>
+									<gco:Decimal>53.947218</gco:Decimal>
+								</gmd:northBoundLatitude>
+							</gmd:EX_GeographicBoundingBox>
+						</gmd:geographicElement>
+						<gmd:temporalElement>
+							<gmd:EX_TemporalExtent>
+								<gmd:extent>
+									<gml:TimePeriod>
+										<gml:beginPosition/>
+										<gml:endPosition/>
+									</gml:TimePeriod>
+								</gmd:extent>
+							</gmd:EX_TemporalExtent>
+						</gmd:temporalElement>
+						<gmd:verticalElement>
+							<gmd:EX_VerticalExtent>
+								<gmd:minimumValue>
+									<gco:Real>0.00</gco:Real>
+								</gmd:minimumValue>
+								<gmd:maximumValue>
+									<gco:Real>2147483645.00</gco:Real>
+								</gmd:maximumValue>
+								<gmd:verticalCRS xlink:href=""/>
+							</gmd:EX_VerticalExtent>
+						</gmd:verticalElement>
+					</gmd:EX_Extent>
+				</gmd:extent>
+				<gmd:resourceConstraints>
+					<gmd:MD_Constraints>
+						<gmd:useLimitation>
+							<gco:CharacterString>&lt;DIV STYLE="text-align:Left;"&gt;&lt;DIV&gt;&lt;DIV&gt;&lt;P&gt;&lt;SPAN&gt;Access ONLY by Agreement with Claire Tregembo, Principal Definitive Map Officer 0113 2375269 For guidance ONLY. This information should ONLY be priovided to the public, solicitors etc. by the public rights of way&lt;/SPAN&gt;&lt;SPAN&gt;unit&lt;/SPAN&gt;&lt;/P&gt;&lt;/DIV&gt;&lt;/DIV&gt;&lt;/DIV&gt;</gco:CharacterString>
+						</gmd:useLimitation>
+					</gmd:MD_Constraints>
+				</gmd:resourceConstraints>
+			</gmd:MD_DataIdentification>
+		</gmd:identificationInfo>
+		<gmd:distributionInfo>
+			<gmd:MD_Distribution>
+				<gmd:transferOptions>
+					<gmd:MD_DigitalTransferOptions>
+						<gmd:onLine>
+							<gmd:CI_OnlineResource>
+								<gmd:linkage>
+									<gmd:URL>Server=pdm1; Service=gismal; Database=gismal; User=common; Version=SDE.DEFAULT</gmd:URL>
+								</gmd:linkage>
+							</gmd:CI_OnlineResource>
+						</gmd:onLine>
+					</gmd:MD_DigitalTransferOptions>
+				</gmd:transferOptions>
+				<gmd:distributionFormat>
+					<gmd:MD_Format>
+						<gmd:name>
+							<gco:CharacterString>SDE Feature Class</gco:CharacterString>
+						</gmd:name>
+						<gmd:version>
+							<gco:CharacterString></gco:CharacterString>
+						</gmd:version>
+					</gmd:MD_Format>
+				</gmd:distributionFormat>
+			</gmd:MD_Distribution>
+		</gmd:distributionInfo>
+		<gmd:dataQualityInfo>
+			<gmd:DQ_DataQuality/>
+		</gmd:dataQualityInfo>
+		<gmd:referenceSystemInfo>
+			<gmd:MD_ReferenceSystem>
+				<gmd:referenceSystemIdentifier>
+					<gmd:RS_Identifier>
+						<gmd:code>
+							<gco:CharacterString>Great Britain National Grid</gco:CharacterString>
+						</gmd:code>
+					</gmd:RS_Identifier>
+				</gmd:referenceSystemIdentifier>
+			</gmd:MD_ReferenceSystem>
+		</gmd:referenceSystemInfo>
+		<gmd:contact>
+			<gmd:CI_ResponsibleParty>
+				<gmd:individualName>
+					<gco:CharacterString></gco:CharacterString>
+				</gmd:individualName>
+				<gmd:organisationName>
+					<gco:CharacterString></gco:CharacterString>
+				</gmd:organisationName>
+				<gmd:positionName>
+					<gco:CharacterString></gco:CharacterString>
+				</gmd:positionName>
+				<gmd:contactInfo>
+					<gmd:CI_Contact>
+						<gmd:address>
+							<gmd:CI_Address>
+								<gmd:deliveryPoint>
+									<gco:CharacterString></gco:CharacterString>
+								</gmd:deliveryPoint>
+								<gmd:city>
+									<gco:CharacterString></gco:CharacterString>
+								</gmd:city>
+								<gmd:administrativeArea>
+									<gco:CharacterString></gco:CharacterString>
+								</gmd:administrativeArea>
+								<gmd:postalCode>
+									<gco:CharacterString></gco:CharacterString>
+								</gmd:postalCode>
+								<gmd:electronicMailAddress>
+									<gco:CharacterString></gco:CharacterString>
+								</gmd:electronicMailAddress>
+							</gmd:CI_Address>
+						</gmd:address>
+						<gmd:phone>
+							<gmd:CI_Telephone>
+								<gmd:voice>
+									<gco:CharacterString></gco:CharacterString>
+								</gmd:voice>
+								<gmd:facsimile>
+									<gco:CharacterString></gco:CharacterString>
+								</gmd:facsimile>
+							</gmd:CI_Telephone>
+						</gmd:phone>
+						<gmd:onLine>
+							<gmd:CI_OnLineResource>
+								<gmd:linkage>
+									<gmd:URL></gmd:URL>
+								</gmd:linkage>
+							</gmd:CI_OnLineResource>
+						</gmd:onLine>
+					</gmd:CI_Contact>
+				</gmd:contactInfo>
+			</gmd:CI_ResponsibleParty>
+		</gmd:contact>
+	</gmd:GEMINI_Metadata></metadata>
