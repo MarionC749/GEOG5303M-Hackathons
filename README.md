@@ -13,7 +13,7 @@ I conducted a network analysis to evaluate how parks in Leeds are connected to e
 
 **Hackathon 2:** Creating a Heat Resilience Index for Property Evaluation (with Martello) 🌡
 
-Built a heat resilience index for property evaluation, using Energy Performance Certificate (EPC) data in Leeds. Developed Python scripts for cleaning, processing and modelling large spatial datasets. Created a weighted matrix to create resilience and improvement scores informing the property-level climate change reports of the company.
+Built a heat resilience index for property evaluation, using Energy Performance Certificate (EPC) data in Leeds. Developed Python scripts for cleaning, processing and modelling large spatial datasets. UPRN data had previously been processed by a team member (code not included). Created a weighted matrix to create resilience and improvement scores informing the property-level climate change reports of the company.
 
 
 **Hackathon 3:** Assessing High Street Health in Liverpool and Bradford (with Population Health Improvement (PHI) UK) 🏙️
@@ -23,7 +23,7 @@ Delivered spatial analysis to identify high streets and assess their health in L
 
 **Hackathon 4:** Identifying Opportunities for River Re-Meandering (with Mott MacDonald) 💧
 
-Supported the development of a nature-based solutions mapping tool by identifying opportunities for river re-meandering, in the region where the East West Rail line will be constructed. Data was first clipped to the region of interest. As a team, we then conducted proximity and sinuosity analyses, developed a watercourse scoring system, while writing reusable Python scripts for spatial data processing and visualisation. Outputs were later integrated into QGIS for stakeholder engagement.
+Supported the development of a nature-based solutions mapping tool by identifying opportunities for river re-meandering, in the region affected by the East West Rail line project. Data was first clipped to the region of interest. As a team, we then conducted proximity and sinuosity analyses, developed a watercourse scoring system, while writing reusable Python scripts for spatial data processing and visualisation. Outputs were later integrated into QGIS for stakeholder engagement.
 
 **Hackathon 5:** Creating a Bathing Water Quality Visualization Tool (with the Environmental Agency) 🌊
 
